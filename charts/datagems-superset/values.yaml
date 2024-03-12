@@ -187,14 +187,14 @@ extraConfigMountPath: "/app/configs"
 
 image:
   repository: jezielchaijones/superset
-  tag: ~
+  tag: "v1.0.0"
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
 
 initImage:
   repository: jezielchaijones/superset
-  tag: dockerize
+  tag: "v1.0.0"
   pullPolicy: IfNotPresent
 
 service:
