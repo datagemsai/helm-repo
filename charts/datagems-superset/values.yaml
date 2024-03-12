@@ -186,14 +186,14 @@ configMountPath: "/app/pythonpath"
 extraConfigMountPath: "/app/configs"
 
 image:
-  repository: apache/superset
+  repository: jezielchaijones/superset
   tag: ~
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
 
 initImage:
-  repository: apache/superset
+  repository: jezielchaijones/superset
   tag: dockerize
   pullPolicy: IfNotPresent
 
